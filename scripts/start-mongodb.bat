@@ -1,0 +1,3 @@
+@echo off
+echo Starting isolated MongoDB server on 127.0.0.1:27180...
+"d:\APP\LibreChat\mongodb\bin\mongod.exe" --config "d:\APP\LibreChat\data\config\mongod.conf"
